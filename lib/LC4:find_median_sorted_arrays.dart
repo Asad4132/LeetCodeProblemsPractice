@@ -1,6 +1,5 @@
 void main(List<String> arguments) {
-  List<int> numbers1 = [1];
-  List<int> numbers2 = [0];
+  List<int> numbers1 = [1, 3], numbers2 = [2];
   print(findMedianSortedArrays(numbers1, numbers2));
 }
 
